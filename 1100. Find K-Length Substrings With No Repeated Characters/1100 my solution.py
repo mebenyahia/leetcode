@@ -2,6 +2,8 @@
 Used Sliding Window Algorithmic mental model
 Simply have a deque, rotate and if all elements are unique in window: increment n
 There are probably faster ways to do it, but I'm happy I was able to do it as a newbie :D
+Runs in linear time
+
 '''
 class Solution:
     def numKLenSubstrNoRepeats(self, s: str, k: int) -> int:
